@@ -1,0 +1,6 @@
+{
+  "name": "GatherHer 聚她",
+  "description": "專屬女性的戶外生活揪團、安全驗證、積分獎勵與運動日誌 APP",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Noto+Sans+TC:wght@300;400;500;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Outfit", "Noto Sans TC", ui-sans-serif, system-ui, sans-serif;
+  
+  --color-bento-bg: #F9F8F4;
+  --color-bento-charcoal: #2C3639;
+  --color-bento-forest: #4A6741;
+  --color-bento-sage: #A3B18A;
+  --color-bento-lime: #E9EDC9;
+  --color-bento-limelight: #F1F3E9;
+  --color-bento-cream: #FEFAE0;
+  --color-bento-sand: #FAEDCD;
+  --color-bento-tuscan: #D4A373;
+  --color-bento-muted: #6B705C;
+  --color-bento-soft-white: #FDFCF8;
+  
+  --color-terracotta: #cc7d67;
+  --color-terracotta-light: #fbeee9;
+}
+
+body {
+  background-color: var(--color-bento-bg);
+  font-family: var(--font-sans);
+  color: var(--color-bento-charcoal);
+  overflow-x: hidden;
+}
+
+/* Custom scrollbar for clean feeling */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-bento-sage);
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-bento-forest);
+}
